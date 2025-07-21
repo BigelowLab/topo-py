@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "topopy"
+version = "0.0.1"
+authors = [
+  { name="Jonathan Syme", email="jsyme@bigelow.org" },
+  { name="Johnathan Evanilla", email="jevanilla@bigelow.org" },
+  { name="Ben Tupper", email="btupper@bigelow.org" }
+]
+description = "Access locally stored topography data"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/BigelowLab/topo-py"
+Issues = "https://github.com/BigelowLab/topo-py/issues"
